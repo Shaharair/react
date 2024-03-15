@@ -1,0 +1,28 @@
+.main{
+    padding: 40px 0;
+}
+.main ul{
+    text-align: center;
+}
+.main ul li{
+    display: inline-block;
+}
+.main ul li a{
+    padding: 20px 20px;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius:10px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.main ul li a:hover{
+    background-color: darkorange;
+    color: white;
+}
